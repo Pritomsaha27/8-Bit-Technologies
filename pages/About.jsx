@@ -17,9 +17,9 @@ function AboutPage() {
     <AboutHero/>
     <OurStory/>
     <VisonMission/>
-    <Values/>
+    {/* <Values/>
     <Ourteam/>
-    <MapSection/>
+    <MapSection/> */}
     <Footer/>
     </>
   )

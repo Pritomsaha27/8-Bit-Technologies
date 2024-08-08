@@ -1,6 +1,6 @@
 import React from "react";
 import Hr from "./Hr";
-import "../css/hover.css"
+import "../css/hover.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -10,15 +10,15 @@ function OurStory() {
     AOS.init({
       duration: 1000, 
       easing: 'ease-in-out', 
-    });}, []);  
+    });
+  }, []);  
 
   return (
     <>
-      <div className="flex container gap-6 mx-auto px-32 h-auto my-12">
-        <div data-aos="fade-up"
-     data-aos-duration="850" className="w-1/2 bg-gray-100  px-6 blog rounded-xl">
+      <div className="container flex flex-col md:flex-row gap-6 mx-auto px-8 md:px-32 h-auto my-12">
+        <div data-aos="fade-up" data-aos-duration="850" className="md:w-1/2 bg-gray-100 px-6 py-6 md:py-0 blog rounded-xl">
           <Hr text="OUR STORY"/>
-          <p className=" mt-5 leading-relaxed">
+          <p className="mt-5 leading-relaxed">
             Bit Canny Technologies is a software consulting firm that knows what
             is needed to architect and develop high-quality software products. We
             are one of the few companies who are working on domains like IoT and
@@ -32,8 +32,7 @@ function OurStory() {
             business applications.
           </p>
         </div>
-        <div data-aos="fade-up"
-     data-aos-duration="1000" className="w-1/2 h-full blog rounded-xl flex items-center justify-center">
+        <div data-aos="fade-up" data-aos-duration="1000" className="md:w-1/2 h-full blog rounded-xl flex items-center justify-center">
           <img className="rounded-xl w-full h-auto object-cover"
             src="https://d1brrfe9oh6qhi.cloudfront.net/abtbimg+(1).png"
             alt="Our Story"
