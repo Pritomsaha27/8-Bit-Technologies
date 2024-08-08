@@ -62,12 +62,12 @@ export const CAREERTEST = [
   {
     image:"https://d1brrfe9oh6qhi.cloudfront.net/Mithilesh-Sahu.jpg",
     name:"Rohit Tripathi",
-    comment:"It is my pleasure to share my views about Bit Canny Technologies Pvt. Ltd. IT Training Program. The program focuses more on practical approach on Ruby Rails Technology and enhancing the overall understanding of implementation of the strategy and its outcome."
+    comment:"It is my pleasure to share my views about 8-Bit  Technologies Pvt. Ltd. IT Training Program. The program focuses more on practical approach on Ruby Rails Technology and enhancing the overall understanding of implementation of the strategy and its outcome."
   },
   {
     image:"https://d1brrfe9oh6qhi.cloudfront.net/pix-r-1.jpg",
     name:"Sayantan Chaterjee",
-    comment:"Bit Canny gave me a chance to learn & hone my HR skills. I got a unique outlook towards managing and developing talent"
+    comment:"8-Bit  gave me a chance to learn & hone my HR skills. I got a unique outlook towards managing and developing talent"
   },
   {
     image:"https://www.babushahi.com/upload/image/RSS-Dr.-Avtar-Singh-Shatry.jpg",

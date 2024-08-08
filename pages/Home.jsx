@@ -15,7 +15,7 @@ function HomePage() {
     <Standout/>
     <TechnologyCards/>
     <ClientParalax/>
-    {/* <Projects/> */}
+    <Projects/>
     <Participations/>
     <Footer/> 
     </>

@@ -19,7 +19,7 @@ function OurStory() {
         <div data-aos="fade-up" data-aos-duration="850" className="md:w-1/2 bg-gray-100 px-6 py-6 md:py-0 blog rounded-xl">
           <Hr text="OUR STORY"/>
           <p className="mt-5 leading-relaxed">
-            Bit Canny Technologies is a software consulting firm that knows what
+            8-Bit Technologies is a software consulting firm that knows what
             is needed to architect and develop high-quality software products. We
             are one of the few companies who are working on domains like IoT and
             Smart Home. We have our niche in cloud-based application development. <br /><br />

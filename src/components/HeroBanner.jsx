@@ -8,7 +8,7 @@ function HeroBanner() {
   return (
     <>
       <div className="banner">
-        <div className="banner-content ">
+        <div className="banner-content mt-24">
           <p className="text-xl md:text-2xl lg:text-3xl pb-3">
             Building the <span> Future with Technology,</span><br /><span> Smart Equipment</span> and <br /> <span>State of the Art Software</span>  
           </p>

@@ -9,11 +9,13 @@ import OurServices from '../src/components/OurServices'
 import ConstMidBanner from '../src/components/ConstMidBanner'
 import Projects from '../src/components/Projects'
 import ClientParalax from '../src/components/ClientParalax'
+import ScrollToTop from '../src/components/ScrollToTop'
 
 
 function Consultation() {
   return (
     <>
+    <ScrollToTop/>
     <Navbar/>
     <ConsultationHero/>
     <DevServices/>

@@ -39,12 +39,15 @@
   .banner2{
     background: url('https://www.bitcanny.com/_next/static/media/quote.7478d787.png') no-repeat center center;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     height: 70vh; /* Adjust height as needed */
     color: white; /* Adjust text color as needed */
     position: relative;
     z-index: 1;
+    
   }
+  
 hr.text{
   color: white;
 }
