@@ -1,0 +1,76 @@
+.banner {
+    background: url('https://d1brrfe9oh6qhi.cloudfront.net/srcImg/newbanner.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh; /* Adjust height as needed */
+    color: white; /* Adjust text color as needed */
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Optional: Add an overlay to make text more readable */
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust overlay color and opacity as needed */
+    z-index: -1;
+  }
+  .banner-content  {
+    position: absolute;
+    left: 10%;
+    transform: translateY(-50%);
+    top: 50%;
+    color: white; /* Adjust text color as needed */
+    text-align: left; /* Align text to the left */
+  }
+  span{
+    font-weight: 650;
+  }
+  button{
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .banner2{
+    background: url('https://www.bitcanny.com/_next/static/media/quote.7478d787.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh; /* Adjust height as needed */
+    color: white; /* Adjust text color as needed */
+    position: relative;
+    z-index: 1;
+  }
+hr.text{
+  color: white;
+}
+/* Target the navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000 !important; /* Change the color of the navigation icons */
+}
+
+/* Target the icons inside the navigation buttons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px !important; /* Change the font size of the icons */
+}
+
+/* Hover effect for the navigation buttons */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #555 !important; /* Change color on hover */
+}
+.banner3{
+  background: url('https://www.bitcanny.com/_next/static/media/testimonial-sec-bg.4faf8196.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh; /* Adjust height as needed */
+  color: white; /* Adjust text color as needed */
+  position: relative;
+  z-index: 1;
+}

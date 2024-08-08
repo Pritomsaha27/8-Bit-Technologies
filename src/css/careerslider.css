@@ -1,0 +1,26 @@
+/* Target the navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ffffff !important; /* Change the color of the navigation icons */
+}
+
+/* Target the icons inside the navigation buttons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px !important; /* Change the font size of the icons */
+}
+
+/* Hover effect for the navigation buttons */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #838383 !important; /* Change color on hover */
+}
+.banner3{
+  background: url('https://www.bitcanny.com/_next/static/media/testimonial-sec-bg.4faf8196.jpg') no-repeat center center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 50vh; /* Adjust height as needed */
+  color: white; /* Adjust text color as needed */
+  position: relative;
+  z-index: 0;
+}

@@ -1,0 +1,22 @@
+/* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /*Backgroundofthescrollbartrack*/border-radius: 10px;}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5FD8F4;
+    border: 3px solid #f1f1f1;
+    max-height: 5px;
+}
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2fa7c2; /* Darker blue when hovering over the scrollbar handle */
+  }
+  

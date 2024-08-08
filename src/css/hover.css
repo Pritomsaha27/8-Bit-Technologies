@@ -1,0 +1,72 @@
+.btn {
+    letter-spacing: normal;
+    transition: filter 0.3s ease, letter-spacing 0.3s ease;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color:#0b8cc8;
+    letter-spacing: 1px;
+  }
+  .card{
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    border-color: skyblue;
+    box-shadow: 0 8px 12px rgba(135, 206, 235, 0.7);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+}
+  .btn2 {
+  
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .btn2:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+  }
+  .blog{
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .blog:hover{
+    box-shadow: 0 4px 6px rgba(163, 165, 166, 0.435);
+  }
+
+  .btn3 {
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    
+}
+  .btn3:hover {
+    color: #fff;
+    box-shadow: inset 450px 0 0 0 #54b3d6;
+  }
+  .btn4{
+    transition: color .6s ease-in-out, box-shadow .3s ease-in-out,  background-color .3s ease-in-out;
+    -webkit-transition: color .6s ease-in-out, box-shadow .3s ease-in-out,  background-color .3s ease-in-out;
+    -moz-transition: color .6s ease-in-out, box-shadow .3s ease-in-out,  background-color .3s ease-in-out;
+    -ms-transition: color .6s ease-in-out, box-shadow .3s ease-in-out,  background-color .3s ease-in-out;
+    -o-transition: color .6s ease-in-out, box-shadow .3s ease-in-out,  background-color .3s ease-in-out;
+}
+  .btn4:hover{
+    background-color:#5FD8F4;
+    box-shadow: 0 4px 6px rgba(163, 165, 166, 0.435);
+  }
+  .tech{
+    transition: transform 0.4s, ;
+    -webkit-transition: transform 0.4s, ;
+    -moz-transition: transform 0.4s, ;
+    -ms-transition: transform 0.4s, ;
+    -o-transition: transform 0.4s, ;
+}
+    .tech:hover {
+      transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -o-transform: translateY(-10px);
+}
+.nav:hover{
+ color: #0b8cc8;
+}
