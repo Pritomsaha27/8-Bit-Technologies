@@ -7,6 +7,7 @@ import Participations from '../src/components/Participations'
 import Projects from '../src/components/Projects'
 import Standout from '../src/components/Standout'
 import TechnologyCards from '../src/components/TechnologyCards'
+
 function HomePage() {
   return (
     <>

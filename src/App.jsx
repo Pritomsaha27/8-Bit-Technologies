@@ -10,12 +10,13 @@ import Template from './components/Template';
 import { DATA } from './assets/TempData';
 import ScrollToTop from './components/ScrollToTop';
 import "./App.css"
-import Practice from './components/Practice';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+      <ScrollToTopButton/>
       <ScrollToTop/>
         <Routes>
           <Route
@@ -100,7 +101,6 @@ function App() {
           />
 
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/practice" element={<Practice/>} />
           <Route exact path="/consultation" element={<Consultation />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/career" element={<Careers />} />
